@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input/tailwind.css -o ./output/tailwind.css -w"
+    // "build": "tailwindcss -i ./input/tailwind.css -o ./output/tailwind.css -w"
   },
   "keywords": [],
   "author": "",
