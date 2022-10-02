@@ -1,28 +1,457 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../output/tailwind.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/740aa8d72c.js" crossorigin="anonymous"></script>
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" 
+        rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../output/tailwind.css">
 </head>
 
 <body>
-  <div class="container px-4 m-auto">
-    <p class="first-letter:text-7xl first-letter:font-bold first-letter:text-blue-800
-  first-letter:mr-3 first-letter:float-left">
-      Mlore ipsum dolor sit amet consectetur adipisicing elit. Minus amet eveniet quam reprehenderit, assumenda culpa
-      impedit, vel, itaque nulla pariatur necessitatibus tempore! Nesciunt ad ut doloremque vel voluptatem, quae
-      voluptate. 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet eveniet quam reprehenderit, assumenda culpa
-      impedit, vel, itaque nulla pariatur necessitatibus tempore! Nesciunt ad ut doloremque vel voluptatem, quae
-      voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet eveniet quam reprehenderit, assumenda culpa
-      impedit, vel, itaque nulla pariatur necessitatibus tempore! Nesciunt ad ut doloremque vel voluptatem, quae
-      voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet eveniet quam reprehenderit, assumenda culpa
-      impedit, vel, itaque nulla pariatur necessitatibus tempore! Nesciunt ad ut doloremque vel voluptatem, quae
-      voluptate.
-    </p>
-  </div>
+    <div class="bg-header bg-cover bg-no-repeat bg-center h-screen lg:h-screen w-full">
+        <div class="h-16 lg:h-24 flex pt-8 lg:p-6">
+            <div class="container m-auto px-8">
+                <div class="flex items-center justify-between">
+                    <div class="logo">
+                        <img class="h-7 md:h-10" src="../image/red-white.png" alt="">
+                    </div>
+                    <ul class="items-center justify-between text-white w-96 hidden lg:flex">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="hidden lg:block">
+                        <a href="#" class="text-white bg-red-600 font-bold uppercase px-10 py-5">let's talk</a>
+                    </div>
+                    <div class="lg:hidden">
+                        <a class="text-white font-bold text-2xl" href="#"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="container px-8 m-auto py-32 lg:py-16 selection:bg-red-600 translate-x-[-50%] translate-y-[-50%] absolute top-1/2 left-1/2">
+            <div class="text-white lg:w-4/5 space-y-8 lg:space-y-6">
+                <h4 class="text-red-600 font-semibold">INDUSTRIAL SERVICES</h4>
+                <h1
+                    class="font-semibold md:font-bold font-tarek text-4xl md:text-6xl lg:text-[80px] md:leading-[70px] lg:leading-[90px]">
+                    Manufacturing Industry Service Solutions.</h1>
+                <p class="md:font-semibold lg:text-lg text-sm">Leverage agile frameworks to provide a robust synopsis
+                    for high level overviews. Iterative approaches
+                    to corporate strategy.</p>
+                <button class="font-bold bg-red-700 px-7 py-4 lg:px-7 lg:py-4">DISCOVER MORE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICE SECTION -->
+
+    <div class="bg-service py-12 lg:py-[100px] h-full m-auto">
+        <div class="container m-auto px-6">
+            <div class="text-white space-y-4 w-full m-auto md:columns-2 lg:columns-3">
+                <div class="card">
+                    <div class="space-y-3">
+                        <img class="h-20" src="../image/1.png" alt="">
+                        <h3 class="font-bold text-lg">Rigging</h3>
+                        <p>Quisque placerat vitae odio lacus uten scelerisque. Fusce luctus odio ac nibh luctus
+                            consulting placerat.</p>
+                    </div>
+                    <div>
+                        <a class="uppercase mt-4 text-red-600" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="space-y-3">
+                        <img class="h-20" src="../image/2.png" alt="">
+                        <h3 class="font-bold text-lg">Pipping</h3>
+                        <p>Quisque placerat vitae odio lacus uten scelerisque. Fusce luctus odio ac nibh luctus
+                            consulting placerat.</p>
+                    </div>
+                    <div>
+                        <a class="uppercase mt-4 text-red-600" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="space-y-3">
+                        <img class="h-20" src="../image/3.png" alt="">
+                        <h3 class="font-bold text-lg">Wood Crating</h3>
+                        <p>Quisque placerat vitae odio lacus uten scelerisque. Fusce luctus odio ac nibh luctus
+                            consulting placerat.</p>
+                    </div>
+                    <div>
+                        <a class="uppercase mt-4 text-red-600" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="space-y-3">
+                        <img class="h-20" src="../image/4.png" alt="">
+                        <h3 class="font-bold text-lg">General Repair</h3>
+                        <p>Quisque placerat vitae odio lacus uten scelerisque. Fusce luctus odio ac nibh luctus
+                            consulting placerat.</p>
+                    </div>
+                    <div>
+                        <a class="uppercase mt-4 text-red-600" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="space-y-3">
+                        <img class="h-20" src="../image/5.png" alt="">
+                        <h3 class="font-bold text-lg">electrical tower</h3>
+                        <p>Quisque placerat vitae odio lacus uten scelerisque. Fusce luctus odio ac nibh luctus
+                            consulting placerat.</p>
+                    </div>
+                    <div>
+                        <a class="uppercase mt-4 text-red-600" href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="space-y-3">
+                        <img class="h-20" src="../image/6.png" alt="">
+                        <h3 class="font-bold text-lg">Steel Fabrication</h3>
+                        <p>Quisque placerat vitae odio lacus uten scelerisque. Fusce luctus odio ac nibh luctus
+                            consulting placerat.</p>
+                    </div>
+                    <div>
+                        <a class="uppercase mt-4 text-red-600" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div class="bg-gray-900 py-12 lg:py-[100px] text-white">
+        <div class="container px-4 m-auto">
+            <div class="lg:flex lg:space-x-2">
+                <div class="lg:w-1/2">
+                    <img class="p-4" src="../image/about.png" alt="About">
+                </div>
+                <div class="py-4 space-y-5 lg:w-1/2">
+                    <h4 class="text-red-600 font-semibold text-xl">ABOUT US</h4>
+                    <div class="space-y-3">
+                        <h2 class="text-tarek text-4xl font-bold">25+ years of experience in Industrial <span
+                                class="text-red-600 italic">services</span></h2>
+                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews iterative
+                            approaches to corporate strategy data foster.</p>
+                    </div>
+                    <div class="py-8 space-y-5">
+                        <li class="flex space-x-4 items-center">
+                            <span class="bg-red-600 px-4 py-3 rounded-full "><i class="fa-solid fa-check"></i></span>
+                            <h3 class="font-semibold">Metal, Engineering and Boating</h3>
+                        </li>
+                        <li class="flex space-x-4 items-center">
+                            <span class="bg-red-600 px-4 py-3 rounded-full "><i class="fa-solid fa-check"></i></span>
+                            <h3 class="font-semibold">Eletrical Related Services</h3>
+                        </li>
+                        <li class="flex space-x-4 items-center">
+                            <span class="bg-red-600 px-4 py-3 rounded-full "><i class="fa-solid fa-check"></i></span>
+                            <h3 class="font-semibold">Fuel & Gas Industry</h3>
+                        </li>
+
+                        <button class="bg-red-600 px-8 py-4 font-bold hover:bg-white hover:text-gray-900">View Projects</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- PROJECT SECTION -->
+
+     <div class="bg-gray-800 py-12 lg:py-[100px] text-white">
+        <div class="container px-4 m-auto">
+            <div class="space-y-6">
+                <div class="space-y-3 text-center w-1/2 m-auto">
+                    <h4 class="text-red-600 uppercase font-semibold">Latest Project</h4>
+                    <h2 class="font-semibold text-2xl lg:text-4xl font-tarek">Latest completed and running awesome <span class="text-red-600 italic">projects.</span></h2>
+                </div>
+                <div class="space-y-8 md:columns-2 lg:columns-3">
+                    <div class="space-y-3 p-4">
+                        <div class="image overflow-hidden">
+                            <img class="hover:scale-110 transition-transform duration-1000 " src="../image/indrusti-1.jpg" alt="">
+                        </div>
+                        <div class="content text-center">
+                            <h4 class="font-semibold font-tarek">Steel Pipe stack</h4>
+                        </div>
+                    </div>
+                    <div class="space-y-3 p-4">
+                        <div class="image overflow-hidden">
+                            <img class="hover:scale-110 transition-transform duration-1000 " src="../image/indrusti-2.jpg" alt="">
+                        </div>
+                        <div class="content text-center">
+                            <h4 class="font-semibold font-tarek">Gas Pipe Line</h4>
+                        </div>
+                    </div>
+                    <div class="space-y-3 p-4">
+                        <div class="image overflow-hidden">
+                            <img class="hover:scale-110 transition-transform duration-1000 " src="../image/indrusti-3.jpg" alt="">
+                        </div>
+                        <div class="content text-center">
+                            <h4 class="font-semibold font-tarek">Crisscros Steel Plate</h4>
+                        </div>
+                    </div>
+                    <div class="space-y-3 p-4">
+                        <div class="image overflow-hidden">
+                            <img class="hover:scale-110 transition-transform duration-1000 " src="../image/indrusti-4.jpg" alt="">
+                        </div>
+                        <div class="content text-center">
+                            <h4 class="font-semibold font-tarek">Power Line Tower</h4>
+                        </div>
+                    </div>
+                    <div class="space-y-3 p-4">
+                        <div class="image overflow-hidden">
+                            <img class="hover:scale-110 transition-transform duration-1000 " src="../image/indrusti-5.jpg" alt="">
+                        </div>
+                        <div class="content text-center">
+                            <h4 class="font-semibold font-tarek">Aluminium Copper</h4>
+                        </div>
+                    </div>
+                    <div class="space-y-3 p-4">
+                        <div class="image overflow-hidden">
+                            <img class="hover:scale-110 transition-transform duration-1000 " src="../image/indrusti-6.jpg" alt="">
+                        </div>
+                        <div class="content text-center">
+                            <h4 class="font-semibold font-tarek">Metal Texture</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- TEAM MEMBER SECTION -->
+
+     <div class="bg-gray-900 py-16 lg:py-[100px]">
+        <div class="container m-auto px-8">
+            <div class="text-center text-white">
+                <h4 class="text-red-600 uppercase font-semibold text-xl">Team Member</h4>
+                <h2 class="font-tarek text-2xl lg:text-3xl font-semibold">Meet with expert<span class="text-red-600 italic">enginners.</span></h2>
+            </div>
+            <div class="relative h-full">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper space-x-8">
+                      <div class="swiper-slide">
+                        <img src="../image/tm1.jpg" />
+                        <div class="flex items-center justify-around bg-gray-800 py-2 text-white">
+                            <div>
+                                <h3 class="font-bold text-2xl">Navin Thapa</h3>
+                                <h4 class="text-lg">Project Manager</h4>
+                            </div>
+                            <div>
+                                <a class="bg-red-600 w-6 h-4 py-5 px-[22px] rounded-full text-lg" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/tm2.jpg" />
+                        <div class="flex items-center justify-around bg-gray-800 py-2 text-white">
+                            <div>
+                                <h3 class="font-bold text-2xl">Navin Thapa</h3>
+                                <h4 class="text-lg">Project Manager</h4>
+                            </div>
+                            <div>
+                                <a class="bg-red-600 w-6 h-4 py-5 px-[22px] rounded-full text-lg" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/tm3.jpg" />
+                        <div class="flex items-center justify-around bg-gray-800 py-2 text-white">
+                            <div>
+                                <h3 class="font-bold text-2xl">Navin Thapa</h3>
+                                <h4 class="text-lg">Project Manager</h4>
+                            </div>
+                            <div>
+                                <a class="bg-red-600 w-6 h-4 py-5 px-[22px] rounded-full text-lg" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/tm4.jpg" />
+                        <div class="flex items-center justify-around bg-gray-800 py-2 text-white">
+                            <div>
+                                <h3 class="font-bold text-2xl">Navin Thapa</h3>
+                                <h4 class="text-lg">Project Manager</h4>
+                            </div>
+                            <div>
+                                <a class="bg-red-600 w-6 h-4 py-5 px-[22px] rounded-full text-lg" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/tm5.jpg" />
+                        <div class="flex items-center justify-around bg-gray-800 py-2 text-white">
+                            <div>
+                                <h3 class="font-bold text-2xl">Navin Thapa</h3>
+                                <h4 class="text-lg">Project Manager</h4>
+                            </div>
+                            <div>
+                                <a class="bg-red-600 w-6 h-4 py-5 px-[22px] rounded-full text-lg" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="../image/tm6.jpg" />
+                        <div class="flex items-center justify-around bg-gray-800 py-2 text-white">
+                            <div>
+                                <h3 class="font-bold text-2xl">Navin Thapa</h3>
+                                <h4 class="font-normal text-lg">Project Manager</h4>
+                            </div>
+                            <div>
+                                <a class="bg-red-600 w-6 h-4 py-5 px-[22px] rounded-full text-lg" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+     </div>
+
+
+    <footer class="bg-footer h-auto text-gray-200 ">
+        <div class="container m-auto px-5">
+            <div class="py-16 space-y-8 sm:space-y-0 lg:flex space-x-4 md:columns-2 lg:columns-4">
+                <div class="space-y-8 lg:w-1/4">
+                    <img class="h-8" src="../image/red-white.png" alt="logo">
+                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor in cididunt ut
+                        labore.</p>
+                    <p><span class="font-bold">Opening Hours</span> : Monday – Sat: 9am to 6pm</p>
+                    <ul class="flex justify-start space-x-4">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-pinterest-p"></i></li>
+                        <li><i class="fa-brands fa-instagram-square"></i></li>
+                    </ul>
+                </div>
+
+                <div class="space-y-8 lg:w-1/4">
+                    <h3 class="font-tarek capitalize text-2xl">contact Info</h3>
+                    <div class="space-y-5 py-6">
+                        <div class="flex space-x-4">
+                            <div class="text-red-600">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <p>Ta-134/A, Gulshan Badda Link <br> Rd, Dhaka</p>
+                            </div>
+                        </div>
+
+                        <div class="flex space-x-4">
+                            <div class="text-red-600">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p>(+880)155 69569 365 <br>
+                                    (+880)155 69569 366</p>
+                            </div>
+                        </div>
+
+                        <div class="flex space-x-4">
+                            <div class="text-red-600">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p>support@devsdesign.com <br>
+                                    infoname@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-8 lg:w-1/4">
+                    <h4 class="font-normal font-tarek text-2xl">Our Service</h4>
+                    <div class=" space-y-3">
+                        <div
+                            class="flex hover:text-red-700 hover:translate-x-1 transition-all space-x-3 cursor-pointer">
+                            <p><i class="fa-solid fa-arrow-right"></i></p>
+                            <p>General Construction</p>
+                        </div>
+
+                        <div
+                            class="flex hover:text-red-700 hover:translate-x-1 transition-all space-x-3 cursor-pointer">
+                            <p><i class="fa-solid fa-arrow-right"></i></p>
+                            <p>Property Maintenance</p>
+                        </div>
+
+                        <div
+                            class="flex hover:text-red-700 hover:translate-x-1 transition-all space-x-3 cursor-pointer">
+                            <p><i class="fa-solid fa-arrow-right"></i></p>
+                            <p>Project Managment</p>
+                        </div>
+
+                        <div
+                            class="flex hover:text-red-700 hover:translate-x-1 transition-all space-x-3 cursor-pointer">
+                            <p><i class="fa-solid fa-arrow-right"></i></p>
+                            <p>Virtual Design & Build</p>
+                        </div>
+
+                        <div
+                            class="flex hover:text-red-700 hover:translate-x-1 transition-all space-x-3 cursor-pointer">
+                            <p><i class="fa-solid fa-arrow-right"></i></p>
+                            <p>Preconstruction</p>
+                        </div>
+
+                        <div
+                            class="flex hover:text-red-700 hover:translate-x-1 transition-all space-x-3 cursor-pointer">
+                            <p><i class="fa-solid fa-arrow-right"></i></p>
+                            <p>Design Build</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/4 space-y-8">
+                    <h4 class="font-tarek text-2xl">Newsletter</h4>
+                    <div class="space-y-6">
+                        <p>Tetur adipiscing elit, sed do eiusmod tempor in cididunt ut labore.</p>
+                        <div class="space-y-6">
+                            <input class="text-gray-800 bg-gray-700 p-4 w-full placeholder:text-white focus:text-white"
+                                type="text" placeholder="Your Email Address" name="" id="">
+                            <button class="text-center bg-red-600 w-full p-3">Subscribe Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
